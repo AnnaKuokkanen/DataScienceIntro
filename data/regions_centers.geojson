@@ -1,0 +1,271 @@
+{ "type": "FeatureCollection",
+
+"features":	[
+	{
+		"type": "Feature",
+		"id": 0,
+		"properties": {
+			"Maakunta": "Lappi",
+			"Maakuntakeskus": "Rovaniemi",
+			"Asukasluku (2012)": "183 318",
+			"Pinta-ala (km2)": "92 661,60"
+		},
+		"geometry":{
+			"coordinates":[26.5, 67.5],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 1,
+		"properties": {
+			"Maakunta": "Pohjanmaa",
+			"Maakuntakeskus": "Vaasa",
+			"Asukasluku (2012)": "179 140",
+			"Pinta-ala (km2)": "7 750,08"
+		},
+		"geometry":{
+			"coordinates":[21, 63.2],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 2,
+		"properties": {
+			"Maakunta": "Pirkanmaa",
+			"Maakuntakeskus": "Tampere",
+			"Asukasluku (2012)": "491 743",
+			"Pinta-ala (km2)": "12 446,25"
+		},
+		"geometry":{
+			"coordinates":[23.7, 61.6],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 3,
+		"properties": {
+			"Maakunta": "Etelä-Pohjanmaa",
+			"Maakuntakeskus": "Seinäjoki",
+			"Asukasluku (2012)": "193 735",
+			"Pinta-ala (km2)": "13 443,76"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 4,
+		"properties": {
+			"Maakunta": "Keski-Suomi",
+			"Maakuntakeskus": "Jyväskylä",
+			"Asukasluku (2012)": "274 409",
+			"Pinta-ala (km2)": "16 703,97"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 5,
+		"properties": {
+			"Maakunta": "Etelä-Karjala",
+			"Maakuntakeskus": "Lappeenranta",
+			"Asukasluku (2012)": "133 249",
+			"Pinta-ala (km2)": "5 612,82"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 6,
+		"properties": {
+			"Maakunta": "Keski-Pohjanmaa",
+			"Maakuntakeskus": "Kokkola",
+			"Asukasluku (2012)": "68 504",
+			"Pinta-ala (km2)": "5 018,54"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 7,
+		"properties": {
+			"Maakunta": "Pohjois-Savo",
+			"Maakuntakeskus": "Kuopio",
+			"Asukasluku (2012)": "248 143",
+			"Pinta-ala (km2)": "16 768,48"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 8,
+		"properties": {
+			"Maakunta": "Etelä-Savo",
+			"Maakuntakeskus": "Mikkeli",
+			"Asukasluku (2012)": "153 715",
+			"Pinta-ala (km2)": "13 977,34"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 9,
+		"properties": {
+			"Maakunta": "Pohjois-Karjala",
+			"Maakuntakeskus": "Joensuu",
+			"Asukasluku (2012)": "165 869",
+			"Pinta-ala (km2)": "17 762,59"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 10,
+		"properties": {
+			"Maakunta": "Uusimaa",
+			"Maakuntakeskus": "Helsinki",
+			"Asukasluku (2012)": "1 550 362",
+			"Pinta-ala (km2)": "9 096,36"
+		},
+		"geometry":{
+			"coordinates":[24.7, 60.2],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 11,
+		"properties": {
+			"Maakunta": "Kainuu",
+			"Maakuntakeskus": "Kajaani",
+			"Asukasluku (2012)": "81 232",
+			"Pinta-ala (km2)": "21 501,14"
+		},
+		"geometry":{
+			"coordinates":[28.5, 64.5],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 12,
+		"properties": {
+			"Maakunta": "Kymenlaakso",
+			"Maakuntakeskus": "Kouvola",
+			"Asukasluku (2012)": "181 775",
+			"Pinta-ala (km2)": "5 147,78"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 13,
+		"properties": {
+			"Maakunta": "Päijät-Häme",
+			"Maakuntakeskus": "Lahti",
+			"Asukasluku (2012)": "202 204",
+			"Pinta-ala (km2)": "5 124,63"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 14,
+		"properties": {
+			"Maakunta": "Kanta-Häme",
+			"Maakuntakeskus": "Hämeenlinna",
+			"Asukasluku (2012)": "175 253",
+			"Pinta-ala (km2)": "5 199,76"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 15,
+		"properties": {
+			"Maakunta": "Varsinais-Suomi",
+			"Maakuntakeskus": "Turku",
+			"Asukasluku (2012)": "467 245",
+			"Pinta-ala (km2)": "10 660,73"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 16,
+		"properties": {
+			"Maakunta": "Pohjois-Pohjanmaa",
+			"Maakuntakeskus": "Oulu",
+			"Asukasluku (2012)": "397 964",
+			"Pinta-ala (km2)": "35 507,45"
+		},
+		"geometry":{
+			"coordinates":[25.2, 64.8],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 17,
+		"properties": {
+			"Maakunta": "Satakunta",
+			"Maakuntakeskus": "Pori",
+			"Asukasluku (2012)": "226 537",
+			"Pinta-ala (km2)": "7 957,11"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	},
+	{
+		"type": "Feature",
+		"id": 18,
+		"properties": {
+			"Maakunta": "Ahvenanmaa",
+			"Maakuntakeskus": "Maarianhamina",
+			"Asukasluku (2012)": "28 361",
+			"Pinta-ala (km2)": "1 552,38"
+		},
+		"geometry":{
+			"coordinates":[24, 60],
+			"type":"Point"
+		}
+	}
+	]
+}
