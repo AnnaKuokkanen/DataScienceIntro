@@ -10,7 +10,7 @@ function App() {
   function getPrediction() {
     axios({
       method: "GET",
-      url:"/",
+      url:"http://localhost:5000",
     }).then((response) => {
       const res = response.data
       setPrediction(res.prediction)
