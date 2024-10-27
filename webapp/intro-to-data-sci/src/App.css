@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+
+span {
+  padding-top: 12px;
+}
