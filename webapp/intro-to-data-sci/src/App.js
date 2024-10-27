@@ -1,22 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react'
+import axios from "axios";
 
 function App() {
+
+  const [prediction, setPrediction] = useState(0)
+  const [showPrediction, setShowPrediction] = useState(false)
+
+  function getPrediction() {
+    axios({
+      method: "GET",
+      url:"/",
+    }).then((response) => {
+      const res = response.data
+      setPrediction(res.prediction)
+      setShowPrediction(true)
+    }).catch((error) => {
+      console.log("Something went wrong!")
+    })
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <span>Welcome to healthcare cost predictor!</span>
+        <button onClick={getPrediction}>Predict healthcare costs</button>
+        {showPrediction && <span>Your prediction is {prediction}!</span>}
       </header>
     </div>
   );
