@@ -9,7 +9,8 @@ function App() {
   const [prediction, setPrediction] = useState(0)
   const [showPrediction, setShowPrediction] = useState(false)
 
-  function getPrediction() {
+  function getPrediction(event) {
+    event.preventDefault();
     axios({
       method: "GET",
       url:"http://localhost:5000",
