@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn import LassoCV
+from sklearn.linear_model import LassoCV
 
 def get_prediction(pop_total,vaccine_coverage,visits_private,drug_offences,alcohol_sales,combined_employed,combined_higher_education,combined_0_18,combined_18_64, combined_65):
     cols = ["pop_total", "vaccine_coverage", "visits_private", "drug_offences",
