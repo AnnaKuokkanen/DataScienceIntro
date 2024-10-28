@@ -15,6 +15,6 @@ def get_prediction(pop_total,vaccine_coverage,visits_private,drug_offences,alcoh
     lasso_cv.fit(X, y)
 
     # Predictions
-    y_pred = lasso_cv.predict(np.array([pop_total,vaccine_coverage,visits_private,drug_offences,alcohol_sales,combined_employed,combined_higher_education,combined_0_18,combined_18_64, combined_65]))
+    y_pred = lasso_cv.predict(np.array([pop_total,vaccine_coverage,visits_private,drug_offences,alcohol_sales,combined_employed,combined_higher_education,combined_0_18,combined_18_64, combined_65]).reshape(1, -1))
 
     return 
