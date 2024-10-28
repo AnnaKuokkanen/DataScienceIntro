@@ -30,7 +30,7 @@ function App() {
         <p></p>
         <span>Please fill out the form to get your prediction</span>
       </header>
-      <Form onSubmit={getPrediction}>
+      <Form className="form" onSubmit={getPrediction}>
         <Form.Group>
           <Form.Label>Total population</Form.Label>
           <Form.Control type="number" placeholder="population" />
@@ -80,7 +80,7 @@ function App() {
           <Form.Control type="text" placeholder="population" />
         </Form.Group>
 
-        <Button class="button" type="submit">Predict healthcare costs</Button>
+        <Button className="button" type="submit">Predict healthcare costs</Button>
       </Form>
       {showPrediction && <span>Your prediction is {prediction}!</span>}
     </div>

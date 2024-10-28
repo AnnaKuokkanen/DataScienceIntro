@@ -8,7 +8,12 @@ span {
   font-size: 16px;
 }
 
+.form {
+  margin: 0 20vw;
+}
+
+
 .button {
   background-color: green;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
