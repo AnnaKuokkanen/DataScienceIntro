@@ -15,17 +15,26 @@
   margin: 0 20vw;
 }
 
+.field-container {
+  display: flex;
+}
+
 .left {
   display: flex;
   flex-direction: column;
+  margin-right: 12px;
+  height: 100%;
 }
 
 .right {
   display: flex;
   flex-direction: column;
+  margin-left: 12px;
+  height: 100%;
 }
 
-.button {
-  background-color: green;
+.custom-button {
+  background-color: green !important;
+  border-color: green !important;
   margin-top: 5vh;
 }
