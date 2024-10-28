@@ -1,17 +1,29 @@
 .App {
   text-align: center;
   background-color: #fafafa;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
-span {
-  padding-top: 12px;
-  font-size: 16px;
+.header {
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
 }
 
 .form {
   margin: 0 20vw;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
 
 .button {
   background-color: green;
