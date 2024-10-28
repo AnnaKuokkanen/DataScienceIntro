@@ -13,7 +13,7 @@ function App() {
     event.preventDefault();
     axios({
       method: "GET",
-      url:"http://localhost:5000",
+      url:"https://datascienceintro.onrender.com/",
     }).then((response) => {
       const res = response.data
       setPrediction(res.prediction)
